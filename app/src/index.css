@@ -11,34 +11,63 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-
 }
 
 .container{
-    max-width: 1280px;
+    max-width: 1200px;
     margin: auto;
 }
 
-.navbar{
+
+.navbar {
+    padding: 2rem 0;
+}
+
+
+
+
+.introduction img {
+    width: 250px;
+    height: 250px;
+}
+
+.max-650{
+    max-width: 650px;
+}
+
+.button-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.my-logo{
-    width: 200px;
-    height: 100px;
+.part-two{
+    padding-top: 4rempx;
 }
 
-.navbar .nav-list a{
-    text-decoration: none;
-    list-style: none;
-    
+/* Experience.css */
+#about-me {
+    padding: 0px;
 }
 
-.btn-con{
-    color: #ffff;
-    background-color: red;
-    border-radius: 16px;
-    padding: 1rem 2rem;
-    font-weight: 400px;
-    
+.job {
+    box-shadow: 0 2px 4px rgba(242, 232, 232, 0.1);
 }
+
+.job .list-group-item {
+    border: 0;
+    padding-left: 0;
+}
+
+
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    min-height: 100px; /* Adjust as needed */
+  }
+  
+  .footer-bottom {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  

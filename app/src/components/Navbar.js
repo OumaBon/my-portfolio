@@ -1,19 +1,34 @@
-const Navbar = ()=>{
-    return <header>
-        <div className="navbar d-flex flex-row justify-content-between align-items-center">
-            <div className="logo">
-                <img className="my-logo" src="./assets/images/logo.png" alt="logo"/>
-            </div>
-            <div className="navbar-list">
-                <ul className="nav-list d-flex flex-row list-unstyled justify-content-center">
-                    <a href="#"><li className="px-3">Home</li></a>
-                    <a href="#"><li className="px-3">About Me</li></a>
-                    <a href="#"><li className="px-3">My Projects</li></a>
-                    <a href="#" className="btn-con">Contact Me</a>
-                </ul>
-            </div>
+import { Link } from 'react-router-dom';
+
+const Navbar = () => {
+  return (
+    <header>
+      <nav className="navbar navbar-expand-lg">
+        <div className="container">
+          <Link className="navbar-brand fw-bold text-danger fs-3" to="/">BO.</Link>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <Link className="nav-link active fw-light" aria-current="page" to="/">Home</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/about">About Me</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/projects">Projects</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="#">Contact</Link>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
     </header>
+  );
 }
 
-export default Navbar
+export default Navbar;

@@ -1,6 +1,5 @@
 
-
-const HomePage = () =>{
+const Sample = () =>{
     const experiences = [
         {
             company: 'Alx Fellow',
@@ -33,7 +32,7 @@ const HomePage = () =>{
         <div className="row">
             <p className="fw-light fs-2 text-center text-danger">About Me</p>
                 <div className="col-md-6 text-center my-3">
-                    <img className="w-75" src="./assets/images/bonnie.jfif" alt="about" />
+                    <img className="w-75" src="./assets/images/images.png" alt="about" />
                 </div>
                 <div className="col-md-6">
                     <p className="fs-3 fw-bold text-center"></p>
@@ -79,13 +78,13 @@ const HomePage = () =>{
 
         <section className="three">
         <div className="vh-100 d-flex flex-column justify-content-center align-items-center">
-                <p className='fw-light fs-4 text-center text-danger pt-5'> My Technical Skills</p>
+                <p className='fw-light fs-4 text-center text-danger'>Skills</p>
                 <ul className='d-flex flex-column justify-content-center text-start'>
                     <li className='text-center'><strong>Frontend:</strong> React, JavaScript, HTML5, CSS3, Responsive Design</li>
                     <li><strong>Backend:</strong> Python, Django, RESTful APIs, Database Design</li>
                     <li><strong>Tools & Technologies:</strong> Git, Docker, CI/CD, AWS</li>
                 </ul>
-                <p className='fw-light fs-4 text-center text-danger'>My Approach Towards Projects</p>
+                <p className='fw-light fs-4 text-center text-danger'>My Approach</p>
                 <p className='text-center max-650'>I believe in writing clean, maintainable code and following best practices to ensure the longevity and scalability of applications. Collaboration and communication are key in my workflow, as I work closely with clients and team members to understand their needs and deliver solutions that exceed expectations.</p>
                 <p className='fw-light fs-4 text-center text-danger'>Let’s Connect</p>
                 <p className='text-center max-650'>I’m always excited about new opportunities and challenges. If you’re interested in collaborating on a project or just want to connect, feel free to reach out!</p>
@@ -108,7 +107,7 @@ const HomePage = () =>{
                 </ul>
             </div>
             <div id="about-me" className="container my-5">
-            <p className="text-center my-4 fw-light fs-2 text-danger"> My Work Experience</p>
+            <p className="text-center my-4 fw-light fs-2 text-danger">Experience</p>
             <div className="experience">
                 {experiences.map((job, index) => (
                     <div className="job card mb-4" key={index}>
@@ -133,9 +132,14 @@ const HomePage = () =>{
 
         </section>
        
+    
+
+    
+
+
         
     </main>)
 }
 
 
-export default HomePage
+export default Sample
