@@ -1,0 +1,35 @@
+.hr-custom {
+    border: 0;
+    height: 1px;
+    background: #333; /* Change to your desired color */
+    background-image: linear-gradient(to right, #ccc, #333, #ccc); /* Example gradient */
+    margin: 0 10px; /* Adjust margin as needed */
+    flex-grow: 1; /* Ensure hr takes available space */
+  }
+  
+  ul.list-unstyled {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .flex-row {
+    flex-direction: row;
+  }
+  
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  .p-2 {
+    padding: 0.5rem;
+  }
+  

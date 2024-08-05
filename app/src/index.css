@@ -8,9 +8,8 @@
     font-family: "Poppins", sans-serif;
     background-color: #ffff;
     font-style: normal;
-    text-decoration: none;
+    text-decoration:none;
     list-style: none;
-    box-sizing: border-box;
 }
 
 .container{
@@ -61,13 +60,4 @@
 
 
 
-.footer {
-    background-color: rgba(0, 0, 0, 0.2);
-    min-height: 100px; /* Adjust as needed */
-  }
-  
-  .footer-bottom {
-    background-color: rgba(0, 0, 0, 0.2);
-  }
-  
-  
+

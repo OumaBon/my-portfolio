@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 const HomePage = () =>{
     const experiences = [
@@ -90,20 +90,22 @@ const HomePage = () =>{
                 <p className='fw-light fs-4 text-center text-danger'>Let’s Connect</p>
                 <p className='text-center max-650'>I’m always excited about new opportunities and challenges. If you’re interested in collaborating on a project or just want to connect, feel free to reach out!</p>
                 <ul className="d-flex flex-row justify-content-center">
-                    <a href="" className="px-2"><li>
-                    <i class="bi bi-linkedin"></i>
+                    <Link href="https://www.linkedin.com/in/boniface-ouma-057606262/
+" target="_blank" className="px-2"><li>
+                    <i class="bi bi-linkedin text-danger"></i>
+                        </li></Link>
+
+                        <a href="https://github.com/OumaBon" target="_blank" className="px-2"><li>
+                    <i className="bi bi-github text-danger"></i>
                         </li></a>
                         <a href="" className="px-2"><li>
-                    <i class="bi bi-github"></i>
+                    <i className="bi bi-instagram text-danger"></i>
                         </li></a>
                         <a href="" className="px-2"><li>
-                    <i class="bi bi-instagram"></i>
+                    <i className="bi bi-twitter text-danger"></i>
                         </li></a>
-                        <a href="" className="px-2"><li>
-                    <i class="bi bi-twitter"></i>
-                        </li></a>
-                        <a href="" className="px-2"><li>
-                    <i class="bi bi-envelope"></i>
+                        <a href="mailto:oumamugah@gmail.com" target="_blank" className="px-2"><li>
+                    <i className="bi bi-envelope text-danger"></i>
                         </li></a>
                 </ul>
             </div>
@@ -128,7 +130,9 @@ const HomePage = () =>{
         </div>
 
         <div className="button-container text-center mt-4">
+            <Link to="/projects">
                     <button type="button" className="btn btn-danger ">View My Projects</button>
+                    </Link>
                 </div>
 
         </section>
