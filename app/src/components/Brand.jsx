@@ -14,7 +14,6 @@ const Brand = () => {
           <Link to="https://github.com/OumaBon" target="_blank" ><i className="bi bi-twitter text-danger px-3"></i> </Link>
           <Link to="https://github.com/OumaBon" target="_blank" ><i className="bi bi-whatsapp text-danger px-3"></i> </Link> 
           <Link to="mailto:oumamugah@gmail.com" target="_blank" ><i className="bi bi-envelope-fill text-danger px-3"></i></Link>  
-          
         </ul>
        
       </div>

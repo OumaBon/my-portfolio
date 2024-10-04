@@ -12,6 +12,11 @@ const Footer = () =>{
         <Link to="/contact" className="text-decoration-none text-dark pt-2  fs-6 ">Contact</Link>
       </ul>
 
+      <div className="d-flex flex-row justify-items-center align-items-center" >
+        <p className="fs-5 fw-light text-center text-danger ">Contact Me</p>
+
+      </div>
+
     </div>
   </footer>
 }
